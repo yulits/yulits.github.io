@@ -1,4 +1,11 @@
-/**
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css"
+      title="Wrap Long Lines">
+  </head>
+  <body>
+    <pre>/**
 * Template Name: Personal - v2.3.0
 * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
 * Author: BootstrapMade.com
@@ -178,12 +185,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
+.nav-menu a:hover:before, .nav-menu li:hover &gt; a:before, .nav-menu .active &gt; a:before {
   visibility: visible;
   width: 25px;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover, .nav-menu .active &gt; a, .nav-menu li:hover &gt; a {
   color: #fff;
   text-decoration: none;
 }
@@ -240,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav a:hover, .mobile-nav .active &gt; a, .mobile-nav li:hover &gt; a {
   color: #18d26e;
   text-decoration: none;
 }
@@ -1178,3 +1185,6 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+</pre>
+  </body>
+</html>
