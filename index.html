@@ -496,7 +496,7 @@
             </div>
           </div>
         </div>
-        <form action="mailto:yulits@gmail.com" method="post" role="form" class="php-email-form mt-4">
+        <form action="forms/message.php" method="post" role="form" class="php-email-form mt-4">
           <div class="form-row">
             <div class="col-md-6 form-group"> <input name="name" class="form-control"
                 id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars"
@@ -515,7 +515,7 @@
             <div class="validate"></div>
           </div>
           <div class="form-group"> <textarea class="form-control" name="message"
-rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+rows="5" data-rule="required" data-msg="Please write something for me" placeholder="Message"></textarea>
             <div class="validate"></div>
           </div>
           <!--
@@ -524,8 +524,8 @@ rows="5" data-rule="required" data-msg="Please write something for us" placehold
             <div class="error-message"></div>
             <div class="sent-message">Your message has been sent. Thank you!</div>
           </div>-->
-          <div class="text-center"><input type="submit" value="Send Message">
-          <!--<button type="submit">Send Message</button>-->
+          <div class="text-center"><!--<input type="submit" value="Send Message">-->
+          <button type="submit">Send Message</button>
           </div>
         </form>
       </div>
